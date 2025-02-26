@@ -40,7 +40,7 @@ func Join[T any](x [][]T) []T {
 	if x == nil {
 		return nil
 	}
-	return Bind(maybe.Identity[[]T], x)
+	return Bind(maybe.Identity, x)
 }
 
 // FallibleFmap is a functorial map for a possibly erring function.
