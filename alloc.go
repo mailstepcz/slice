@@ -3,7 +3,7 @@ package slice
 import (
 	"unsafe"
 
-	"github.com/fealsamh/go-utils/mem"
+	"github.com/mailstepcz/go-utils/mem"
 )
 
 // Alloc allocates a slice if type T and the given size.
