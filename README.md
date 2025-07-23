@@ -4,4 +4,4 @@ This package provides functional algorithms for slices and sets (realised as `ma
 * `bind` (flat map)
 * `join` (flattening)
 * `removeDuplicates`
-* `chunkSlice` (split slice into smaller chunks)
+* `chunkSlice` (splits a slice into smaller slices (chunks) of given size)
